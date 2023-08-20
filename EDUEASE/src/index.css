@@ -1,0 +1,449 @@
+
+.bulb{
+  color: #0eb582;
+  font-size: 2.3rem;
+}
+
+.navbar-brand{
+    font-size: 2.3rem;
+    color: #444;
+    font-weight:500 ;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    color: #444;
+    margin: 0 6px;
+    font-weight:450 ;
+}
+.nav-link:hover{
+   color: #0eb582;
+}
+
+.btn{
+    color: #0eb582;
+    
+    font-size: 1.3rem;
+}
+.btn-login{
+    padding-left: 5rem;
+    font-weight: bolder;
+}
+.btn-signup{
+    font-weight: bolder;
+}
+
+
+/* header */
+
+/* TYPREWRITER */
+/* body {
+    font-family: monospace;
+    font-weight: 700;
+    font-size:50px;
+    padding:20px;
+    background:#005F6B;
+    color:#00DFFC
+  } */
+  
+  .type {
+    color:#0000;
+    background:
+      linear-gradient(-90deg,#fff 5px,#0000 0) 10px 0,
+      linear-gradient(#fff 0 0) 0 0;
+    background-size:calc(var(--n)*1ch) 200%;
+    -webkit-background-clip:padding-box,text;
+    background-clip:padding-box,text;
+    background-repeat:no-repeat;
+    animation: 
+     b .7s infinite steps(1),   
+     t calc(var(--n)*.3s) steps(var(--n)) forwards;
+     --n:53
+  }
+  
+  
+  @keyframes t{
+    from {background-size:0 200%}
+  }
+  @keyframes b{
+    50% {background-position:0 -100%,0 0}
+  }
+
+
+.btn-block{
+    color: #0eb582;
+    
+    font-size: 1.3rem;
+}
+
+
+header{
+    background-color:#0eb582;
+    min-height: 100vh;
+    width: 100%;
+}
+.main-hero-container{
+height: 80vh;
+display:flex;
+}
+
+.chamma{
+    color: #0eb582;
+    background-color:#fff;
+    font-size: 2.2rem;
+    border-radius: 2.3rem;
+    margin-top: 2.3rem;
+    margin-left: 3rem;
+    text-align: left;
+}
+.chamma:hover {
+    color: #0eb582;
+    background-color:#fff;
+}
+
+
+/* MAIN PIC OF GIRL*/
+.main-herosection-images img {
+    width: 90%;
+    height: 90%;
+    border-radius: 23px;
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.8);
+
+}
+
+.granny{
+    display:flex;
+    align-items: center;
+}
+.img-cards{
+    height: 500px;
+    width: 350px;
+    border-radius:3px;
+}
+.woman{
+    height: 500px;
+    margin:50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.into{
+    height: 70px;
+    width:350p
+}
+
+
+
+/* INITIATIVE */
+
+.work-container{
+    padding-top: 5.3rem;
+}
+.initiative{
+    text-align: left;
+    font-size: 20px;
+    padding-right: 26%;
+}
+
+/* INITIATIVE span classes */
+.join{
+    color: #088395;
+    font-size: 4.17rem;
+    font-weight: bold;
+}
+.care{
+    color: #E21818;
+    font-size: 5rem;
+}
+
+/* DONATIONS FAVICONS */
+.bi-currency-dollar{
+   font-size: 5.3rem;
+   color: #0eb582;
+}
+.bi-book-half{
+    font-size: 5.3rem;
+    color: #0eb582;
+}
+.bi-globe{
+    font-size: 5.3rem;
+    color: #0eb582;
+}
+
+/* DONTATIONS FONTS */
+.work-container-subdiv{
+    font-size: 1.5rem;
+   margin-top: 2rem;
+   background-color: #f0fdfa;
+   border-radius: 23px;
+ 
+}
+
+/* GRAPHS */
+.graph1{
+    width: 200px;
+    height: 200px;
+}
+.graph2{
+    width: 200px;
+    height: 200px;
+}
+
+/* TABLE */
+.puducherry{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+}
+.fuddu{
+    padding: 12px 15px;
+}
+.fuddu thead tr th {
+    width: 500px;
+    background-color: #f0fdfa;
+    
+}
+.fuddu td, th {
+    font-size: 1.2rem;
+
+}
+
+/* FOOTER */
+#footeriya{
+ background-color: #f0fdfa;
+ color: #444;
+}
+.underline{
+    text-decoration: none;
+}
+
+.login-form{
+    padding: 10px 80px;
+}
+
+.subscribe{
+    background-color: #0eb582;
+    color: white;
+}
+.subscribe:hover{
+    background-color: #0eb582;
+    color: white;
+}
+
+.bi-linkedin{
+color: #0eb582;
+font-size: 1.3rem;
+}
+.bi-twitter{
+color: #0eb582;
+font-size: 1.3rem;
+}
+.bi-instagram{
+color: #0eb582;
+font-size: 1.3rem;
+}
+.bi-facebook{
+color: #0eb582;
+font-size: 1.3rem;
+}
+/* Contact Us  */
+
+.contactus-section{
+ margin: 15rem 0;
+}
+
+.contact-leftside-image{
+    min-width: 80%;
+    max-height: 30rem;
+    height: auto;
+}
+.contact-input-field{
+    margin-bottom: 3rem;
+}
+
+
+/* CONTACT PAGE */
+
+.contactus-name{
+    padding: 6.5rem 5rem;
+}
+
+.fw-bold{
+    font-size: 2.3rem;
+    color: #000;
+}
+.CONTACT-US{
+    font-size: 3.3rem;
+    color: #0eb582;
+}
+.w-100{
+    background-color: #0eb582;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.hehe{
+    border-radius: 50px;
+    border-color: #0eb582;
+}
+
+
+
+/* ABOUT US  */
+
+
+.timeline{
+    position: relative;background-color: #fff;
+    max-width: 1200px;
+    margin: 100px auto;
+    position: relative;
+    z-index: -1;
+
+}
+.chuhiya{
+   padding: 10px 50px;
+   position: relative;
+   width: 50%;
+   animation: movedown 1s linear forwards;
+   opacity: 0;
+}
+@keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+}
+
+.chuhiya:nth-child(1){
+animation-delay:0s;
+}
+.chuhiya:nth-child(2){
+    animation-delay:1s ;
+}
+.chuhiya:nth-child(3){
+    animation-delay: 2s;
+}
+.chuhiya:nth-child(4){
+    animation-delay: 3s;
+}
+.chuhiya:nth-child(5){
+    animation-delay: 4s;
+}
+.chuhiya:nth-child(6){
+    animation-delay: 5s;
+}
+.text-box{
+    padding: 20px 30px;
+    background: #0eb582;
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+}
+
+.left-chuhiya{
+    left: 0;
+}
+.right-chuhiya{
+   left: 50%;
+}
+.chuhiya img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index:1;
+}
+.right-chuhiya img{
+    left: -20px;
+ }
+
+ .timeline::after{
+    content:'';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #0eb582;
+    top:0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+    animation: moveline 6s linear forwards;
+ }
+ @keyframes moveline{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+ }
+ .text-box h2{
+    font-weight: 600;
+    
+ }
+ .text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+    
+ }
+
+ .left-chuhiya-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index:1;
+    border-top: 15px solid transparent;
+    border-bottom:15px solid transparent;
+    border-left: 15px solid #0eb582;
+    right: 36px;
+ }
+ .right-chuhiya-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index:1;
+    border-top: 15px solid transparent;
+    border-bottom:15px solid transparent;
+    border-right: 15px solid #0eb582;
+    left: 36px;
+ }
+
+ @media screen and (max-width:600px){
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left:31px;
+    }
+    .container{
+        width: 100%;
+        padding-left:80px;
+        padding-right: 25px;
+    }
+    .text-box{
+        font-size: 13px;
+    }
+    .text-box small{
+        margin-bottom:10px;
+    }
+    .right-chuhiya{
+        left:0;
+    }
+    .left-chuhiya img , .right-chuhiya img{
+        left: 10px;
+    }
+    .left-chuhiya-arrow,.right-chuhiya-arrow{
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left:-15px;
+    }
+ }
+
+  
