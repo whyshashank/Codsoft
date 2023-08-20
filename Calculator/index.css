@@ -1,0 +1,45 @@
+.bg{
+    background-color: #337CCF;
+}
+.calculator{
+    height: 250px;
+    width: 250px;
+      border: 2px solid rgb(54, 39, 12);
+      background-color: #F6635C;
+      box-shadow:  10px 10px #888888;
+}
+
+.calci-container{
+   height: 100vh;
+    width: 100vw;  
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+  
+}
+.cal-buttons{
+   text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow:  6px 3px #888888;
+} 
+
+.cal-buttons:hover{
+background-color: red;
+}
+
+#number-input{
+border: 2px solid black;
+border-radius: 23px;
+box-shadow:  3px 3px #888888;
+}
+
+#answer-sheet{
+    border: 2px solid black;
+    border-radius: 23px;
+    box-shadow:  3px 3px #888888;
+}
+
+.shashank{
+    text-align: center;
+}

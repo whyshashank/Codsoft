@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="bg">
+    <div class="calci-container">
+        
+        <div class="calculator">
+            <h1 class="shashank">Calculator</h1>
+            <input type="text" disabled id="number-input"/>
+            <input type="text" disabled placeholder="ANS" id="answer-sheet"/>
+        <div class="row">
+            <div class="col cal-buttons " onclick="OnclickEvent(this)">+</div>
+            <div class="col cal-buttons " onclick="OnclickEvent(this)">-</div>
+            <div class="col cal-buttons " onclick="OnclickEvent(this)">*</div>
+            <div class="col cal-buttons " onclick="OnclickEvent(this)">/</div>
+        </div>
+        <div class="row">
+        <div class="col col-3 cal-buttons " onclick="OnclickEvent(this)">7</div>
+        <div class="col col-3 cal-buttons " onclick="OnclickEvent(this)">8</div>
+        <div class="col col-3 cal-buttons " onclick="OnclickEvent(this)">9</div>
+        </div>
+        <div class="row">
+            <div class="col  col-3 cal-buttons " onclick="OnclickEvent(this)">4</div>
+            <div class="col col-3  cal-buttons " onclick="OnclickEvent(this)">5</div>
+            <div class="col  col-3 cal-buttons " onclick="OnclickEvent(this)">6</div>
+            </div>
+            <div class="row">
+                <div class="col col-3  cal-buttons " onclick="OnclickEvent(this)">1</div>
+                <div class="col  col-3 cal-buttons " onclick="OnclickEvent(this)">2</div>
+                <div class="col  col-3 cal-buttons " onclick="OnclickEvent(this)">3</div>
+                </div>
+                <div class="row">
+                    <div class="col cal-buttons col-3 " onclick="OnclickEvent(this)">0</div>
+                    <div class="col cal-buttons col-6"   onclick="reset()">C</div>
+                </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
